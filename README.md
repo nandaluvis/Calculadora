@@ -48,13 +48,13 @@ Digite um número de 1 a 4 para escolher a operação desejada
 - 3 = x (Multiplicação)
 - 4 = / (Divisão)
 
-Digite um número de 1 a 4
+- Digite um número de 1 a 4
 1
-Digite o primeiro número para realizar a operação
+- Digite o primeiro número para realizar a operação
 10
-Digite o segundo número para realizar a operação
+- Digite o segundo número para realizar a operação
 5
-O resultado da soma é 15.0
+- O resultado da soma é 15.0
 
 ---
 
@@ -65,6 +65,7 @@ O resultado da soma é 15.0
 - Tipos primitivos (int, double)
 - Operadores matemáticos básicos
 - Estrutura básica de um programa Java
+
 
 
 
