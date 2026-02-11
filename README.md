@@ -32,10 +32,10 @@ O projeto utiliza:
 ## 🎮 Como Usar
 
 Ao executar, o sistema exibirá o seguinte menu:
-1 = + (Soma)
-2 = - (Subtração)
-3 = x (Multiplicação)
-4 = / (Divisão)
+- 1 = + (Soma)
+- 2 = - (Subtração)
+- 3 = x (Multiplicação)
+- 4 = / (Divisão)
 
 ---
 
@@ -43,10 +43,10 @@ Ao executar, o sistema exibirá o seguinte menu:
 
 Bem vindo a calculadora!
 Digite um número de 1 a 4 para escolher a operação desejada
-1 = + (Soma)
-2 = - (Subtração)
-3 = x (Multiplicação)
-4 = / (Divisão)
+- 1 = + (Soma)
+- 2 = - (Subtração)
+- 3 = x (Multiplicação)
+- 4 = / (Divisão)
 
 Digite um número de 1 a 4
 1
@@ -65,6 +65,7 @@ O resultado da soma é 15.0
 - Tipos primitivos (int, double)
 - Operadores matemáticos básicos
 - Estrutura básica de um programa Java
+
 
 
 
