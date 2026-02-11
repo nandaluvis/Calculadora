@@ -22,14 +22,14 @@ O projeto utiliza:
 
 ---
 
-### ✅ Pré-requisitos
+## ✅ Pré-requisitos
 
 - Java JDK instalado (versão 8 ou superior)
 - Terminal ou Prompt de Comando
 
 ---
 
-#### 🎮 Como Usar
+## 🎮 Como Usar
 
 Ao executar, o sistema exibirá o seguinte menu:
 1 = + (Soma)
@@ -39,7 +39,7 @@ Ao executar, o sistema exibirá o seguinte menu:
 
 ---
 
-##### 💡 Exemplo de Execução
+## 💡 Exemplo de Execução
 
 Bem vindo a calculadora!
 Digite um número de 1 a 4 para escolher a operação desejada
@@ -58,12 +58,13 @@ O resultado da soma é 15.0
 
 ---
 
-###### 📚 Conceitos Utilizados
+## 📚 Conceitos Utilizados
 
 - Entrada de dados com Scanner
 - Estrutura de decisão switch-case
 - Tipos primitivos (int, double)
 - Operadores matemáticos básicos
 - Estrutura básica de um programa Java
+
 
 
