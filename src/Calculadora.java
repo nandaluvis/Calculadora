@@ -5,6 +5,8 @@ public class Calculadora{
 public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        double numeroEscolhido1 = 0;
+        double numeroEscolhido2 = 0;
 
         System.out.println("Bem vindo a calculadora!");
         System.out.println("Digite um número de 1 a 4 para escolher a operação desejada de acordo com a tabela abaixo");
@@ -15,53 +17,53 @@ public static void main(String[] args) {
 
          System.out.println("Digite um número de 1 a 4");
 
-         int menu = scanner.nextInt();
+         String menu = scanner.nextLine();
 
         switch (menu){
 
-                case 1:
+                case "1":
                         System.out.println("Digite o primeiro número para realizar a operação");
 
-                        double numeroEscolhidoSomaUm = scanner.nextDouble();
+                        numeroEscolhido1 = scanner.nextDouble();
 
                         System.out.println("Digite o segundo número para realizar a operação");
 
-                        double numeroEscolhidoSomaDois = scanner.nextDouble();
+                        numeroEscolhido2 = scanner.nextDouble();
 
-                        System.out.println("O resultado da soma é " + (numeroEscolhidoSomaUm + numeroEscolhidoSomaDois));
+                        System.out.println("O resultado da soma é " + (numeroEscolhido1 + numeroEscolhido2));
                         break;
-                case 2:
+                case "2":
                         System.out.println("Digite o primeiro número para realizar a operação");
 
-                        double numeroEscolhidoMenosUm = scanner.nextDouble();
+                        numeroEscolhido1 = scanner.nextDouble();
 
                         System.out.println("Digite o segundo número para realizar a operação");
 
-                        double numeroEscolhidoMenosDois = scanner.nextDouble();
+                        numeroEscolhido2 = scanner.nextDouble();
 
-                        System.out.println("O resultado da subtração é " + (numeroEscolhidoMenosUm - numeroEscolhidoMenosDois));
+                        System.out.println("O resultado da subtração é " + (numeroEscolhido1 - numeroEscolhido2));
                         break;
-                case 3:
+                case "3":
                         System.out.println("Digite o primeiro número para realizar a operação");
 
-                        double numeroEscolhidoVezesUm = scanner.nextDouble();
+                        numeroEscolhido1 = scanner.nextDouble();
 
                         System.out.println("Digite o segundo número para realizar a operação");
 
-                        double numeroEscolhidoVezesDois = scanner.nextDouble();
+                        numeroEscolhido2 = scanner.nextDouble();
 
-                        System.out.println("O resultado da multiplicação é " + (numeroEscolhidoVezesUm * numeroEscolhidoVezesDois));
+                        System.out.println("O resultado da multiplicação é " + (numeroEscolhido1 * numeroEscolhido2));
                         break;
-                case 4:
+                case "4":
                         System.out.println("Digite o primeiro número para realizar a operação");
 
-                        double numeroEscolhidoDivideUm = scanner.nextDouble();
+                        numeroEscolhido1 = scanner.nextDouble();
 
                         System.out.println("Digite o segundo número para realizar a operação");
 
-                        double numeroEscolhidoDivideDois = scanner.nextDouble();
+                        numeroEscolhido2 = scanner.nextDouble();
 
-                        System.out.println("O resultado da divisão é " + (numeroEscolhidoDivideUm / numeroEscolhidoDivideDois));
+                        System.out.println("O resultado da divisão é " + (numeroEscolhido1 / numeroEscolhido2));
                         break;
                 default:
                         System.out.println("Número inválido. Digite de um número de 1 a 4");
